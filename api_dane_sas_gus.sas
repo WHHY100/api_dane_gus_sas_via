@@ -122,3 +122,5 @@ from tab_podstawowe_dane a
 left join tab_wynagrodzenia b on a.wojewodztwo_napis = b.wojewodztwo_napis and a.rok = b.rok
 left join tab_bezrobocie c on a.wojewodztwo_napis = c.wojewodztwo_napis and a.rok = c.rok
 ;quit;
+
+proc print data=tab_finalny_zbior_danych; run;
