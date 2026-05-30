@@ -125,7 +125,7 @@ left join tab_bezrobocie c on a.wojewodztwo_napis = c.wojewodztwo_napis and a.ro
 
 /*
 -------------------------------------------------------------------------------------------------
-Podstawowe dostepne dane
+Wyświetlanie dostępnych danych
 -------------------------------------------------------------------------------------------------
 */
 
